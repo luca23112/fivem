@@ -1,0 +1,31 @@
+{
+  "name": "discord-rp-management-bot",
+  "version": "1.0.0",
+  "description": "Moderner, modularer Discord-Bot mit Slash-Commands, Panels und Verwaltungssystemen",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy": "node src/handlers/deployCommands.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "slash-commands",
+    "moderation",
+    "tickets"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "better-sqlite3": "^11.7.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
